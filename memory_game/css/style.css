@@ -1,0 +1,127 @@
+/*======
+GENERAL STYLES
+=======*/
+
+body {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+/*======
+TYPOGRAPHY
+=======*/
+
+h1 {
+	
+	text-transform: uppercase;
+	color: #07A65A5;
+	font-size: 45px;
+	margin: 0px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+
+ h2 {
+	text-transform: uppercase;
+	color: #3E2671;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 20px;
+ }
+
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 10px;
+}
+
+ a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #160539;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0px 20px;
+	letter-spacing: .06em;
+	/* for hover style transition */
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+/*=====
+HEADER
+=====*/
+
+header {
+	color: #7A65A5;
+	background-color: #160539;
+	padding: 30px 20px;
+}
+
+/*====
+NAV
+====*/
+nav {
+	background-color: #7A65A5;
+	padding: 20px 0px;
+}
+
+/*====
+MAIN SECTION
+====*/
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+
+/*====
+GAME BOARD
+====*/
+
+img {
+	margin: 40px 8px 0;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #160539;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500; 
+}
+
+.copyright {
+	float: left;
+	font-family: "Raleway", sans-serif;
+}
+
+.message {
+	float: right;
+	font-family: "Raleway", sans-serif;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
