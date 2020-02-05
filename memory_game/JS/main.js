@@ -23,6 +23,7 @@ const cards = [
 
 const cardsInPlay = [];
 
+// Checks rank to see if cards match and displays alert to let user know
 function checkForMatch() {
 	if (cardsInPlay.length === 2) {
 	if (cardsInPlay[0].rank === cardsInPlay[1].rank) {
@@ -32,6 +33,8 @@ function checkForMatch() {
 	};
 	};
 };
+
+// Flips the card the user chooses and then initates a check for match
 
 function flipCard() {
 	let cardId = this.getAttribute('data-id');
@@ -43,6 +46,7 @@ function flipCard() {
 	checkForMatch();
 };
 
+//Creates the game board for cards
 function createBoard() {
 	for (let i = 0; i < cards.length; i++) {
 		let cardElement = document.createElement('img');
@@ -55,7 +59,7 @@ function createBoard() {
 
 createBoard();
 
-// added a reset button to reload page after game
+// adds a play again button to reload page after game
 	let reset = document.getElementById('reset');
 	reset.addEventListener('click', resetGame)
 
