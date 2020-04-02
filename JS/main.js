@@ -66,9 +66,3 @@ createBoard();
 function resetGame() {
 	window.location.reload();
 };
-
-
-
-
-
-
